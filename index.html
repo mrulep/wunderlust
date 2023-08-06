@@ -166,24 +166,24 @@
             <h2>Contact Us</h2>
             <form>
                 <label for="fname">First name:</label>
-                <input type="text" name="fname" placeholder="Enter first name">
+                <input type="text" id="fname" name="fname" placeholder="Enter first name">
                 <label for="lname">Last name:</label>
-                <input type="text" name="lname" placeholder="Enter last name">
+                <input type="text" id="lname" name="lname" placeholder="Enter last name">
                 <fieldset>
                     <legend>Contact Method</legend>
-                    <input type="radio" name="prefer" value="email">
+                    <input type="radio" id="preferEmail" name="prefer" value="email">
                     <label for="preferEmail">Email</label>
-                    <input type="radio" name="prefer" value="text">
+                    <input type="radio" id="preferText" name="prefer" value="text">
                     <label for="preferText">Text</label>
-                    <input type="radio" name="prefer" value="phone">
+                    <input type="radio" id="preferPhone" name="prefer" value="phone">
                     <label for="preferPhone">Phone</label>
                 </fieldset>
                 <label for="email">Email</label>
-                <input type="email" name="email" placeholder="Enter email">
+                <input type="email" id="email" name="email" placeholder="Enter email">
                 <label for="phone">Phone Number</label>
-                <input type="tel" name="phone" placeholder="Enter telephone number">
+                <input type="tel" id="phone" name="phone" placeholder="Enter telephone number">
                 <label for="destination">Destination</label>
-                <select name="destination">
+                <select id="destination" name="destination">
                     <option value="barcelona">Barcelona</option>
                     <option value="granada">Granada</option>
                     <option value="ibiza">Ibiza</option>
@@ -194,7 +194,7 @@
                     <option value="valencia">Valencia</option>
                 </select>
                 <label for="time">Travel Time</label>
-                <select name="time">
+                <select id="time" name="time">
                     <option value="fall">Fall</option>
                     <option value="winter">Winter</option>
                     <option value="spring">Spring</option>
